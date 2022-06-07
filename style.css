@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: gray;
+  margin-top: 100px;
+}
+.container{
+  background-color: white;
+  margin: 0 auto ;
+  display: flex;
+  width: 80%;
+  border-radius: 20px;
+  padding: 50px 100px;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  width: 50%;
+}
+/* .container .context-1 content input{
+  display: block;
+  border: none;
+  how do you know when to use parent tag to call the children
+} */
+input{
+  display: block;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-bottom: 1px solid blue;
+  width: 70%;
+  outline: 0;
+}
+input:focus{
+border-bottom: 1px solid rgb(57, 201, 236);
+}
+input[type="checkbox"], p{
+  display: inline;
+  width: auto;
+}
+span{
+  padding-left: 10px;
+}
+
+input[type="submit"] {
+  border: none;
+  width: auto;
+}
+.context-2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.button{
+  padding: 15px 30px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+.button:hover{
+  transition: .3s;
+  background-color: rgb(57, 201, 236);
+}
